@@ -1,6 +1,5 @@
-body {
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@use "./variables";
+@use "./base"; 
+@use "./flex";
+@use "./utils"; 
+@use "./debug"; 
