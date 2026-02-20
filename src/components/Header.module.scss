@@ -1,4 +1,6 @@
+@use '../assets/styles/mixins' as mixin ; 
 .header {
+  position: relative;
   padding: 10px 20px;
   background-color: white;
   box-shadow: var(--box-shadow-nav);
@@ -6,4 +8,18 @@
   img {
     width: 130px;
   }
+
+  .headerList {
+    @include mixin.xs {
+      display: none;
+    }
+  }
+  .displayHearderBar {
+    display: none;
+    cursor: pointer;
+     @include mixin.xs {
+      display: block;
+    }
+  }
+ 
 }

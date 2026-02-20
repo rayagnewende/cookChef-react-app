@@ -1,0 +1,18 @@
+.headerMenuStyle {
+    position: absolute;
+    top: 68px;
+    right: 10px;
+    width: 200px;
+   li {
+    padding: 10px 15px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.2s ;
+    &:hover {
+        background-color: var(--primary);
+        color:white
+    }
+   }
+
+}
